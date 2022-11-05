@@ -1,0 +1,34 @@
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .topLeft {
+
+    a,
+    h2 {
+      color: white;
+      margin: 0;
+    }
+  }
+  .topRight {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+  }
+
+  .dropdownButton {
+    display: flex;
+    align-items: center;
+    > div {
+      span {
+        display: block;
+      }
+    }
+  }
+}
