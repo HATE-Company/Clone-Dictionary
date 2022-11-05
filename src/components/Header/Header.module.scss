@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 
   .topLeft {
 
@@ -28,6 +29,66 @@
     > div {
       span {
         display: block;
+      }
+    }
+  }
+}
+
+.bottomHeader{
+  display: flex;
+  background-color: white;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  &__search{
+    display: flex;
+    position: relative;
+    & img{
+      position: absolute;
+      right:1rem;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      height: 20px;
+    }
+    & input{
+      width: 35rem;
+      border-radius: 50px;
+      height: 3rem;
+      outline: none;
+      padding: 1rem;
+      border: 1px solid grey;
+    }
+
+  }
+  &__create{
+    display: flex;
+  }
+  &__navicons{
+    display: flex;
+    align-items: center;
+    
+    &__icon{
+      display: flex;
+      align-items: center;
+      font-size: 10px;
+      &:nth-child(1){
+        margin-right:1rem;
+      }
+      &:nth-child(2){
+        margin-right:1rem;
+      }
+      &:nth-child(3){
+        margin-right:1rem;
+      }
+      &:nth-child(4){
+        margin-right:1rem;
+      }
+      & img{
+        height: 40px;
+        margin-right: 1rem;
+        
       }
     }
   }

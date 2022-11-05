@@ -18,7 +18,7 @@ const AppLayout = () => {
       <Header className="bottom-header">
         <BottomHeader />
       </Header>
-      <Layout>
+      <Layout style={{padding:'0 5rem'}}>
         <Sider className='left-sidebar'><Sidebar/></Sider>
         <Content><Outlet />t</Content>
         <Sider>right sidebar</Sider>
