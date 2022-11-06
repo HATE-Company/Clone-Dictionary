@@ -4,6 +4,8 @@ import styles from "./Header.module.scss"
 const BottomHeader = () => {
   return (
     <div className={styles.bottomHeader}>
+    <div className={styles.bottomHeader__left}>
+
       <div className={styles.bottomHeader__navicons}>
         <div className={styles.bottomHeader__navicons__icon}>
         <img src={require('../../assets/best.png')}/>
@@ -22,14 +24,21 @@ const BottomHeader = () => {
         <h1>bronze</h1>
         </div>
       </div>
+    </div>
+    <div className={styles.bottomHeader__middle}>
       <div className={styles.bottomHeader__search}>
         <input  placeholder="headline, #tag, @writer" />
         <img src={require("../../assets/search.png")}></img>
       </div>
-      <div>
+    </div>
+      <div className={styles.bottomHeader__right}>
         <div className={styles.bottomHeader__create}>
-        <h1>create hashtag #</h1>
+          
+         {/*This one's will be NavLink*/}
+        <h1 style={{color:'purple'}}>create hashtag # &nbsp;</h1>
+     
         <h1>create tagline +</h1>
+
         </div>
       </div>
     </div>
