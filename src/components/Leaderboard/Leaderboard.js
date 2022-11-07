@@ -47,7 +47,7 @@ console.log(items[0].label);
 // submenu keys of first level
 const rootSubmenuKeys = ["sub1", "sub2", "sub4"];
 const Leaderboard = () => {
-  const [openKeys, setOpenKeys] = useState(["sub1"]);
+  const [openKeys, setOpenKeys] = useState();
   const onOpenChange = (keys) => {
     const latestOpenKey = keys.find((key) => openKeys.indexOf(key) === -1);
     if (rootSubmenuKeys.indexOf(latestOpenKey) === -1) {
