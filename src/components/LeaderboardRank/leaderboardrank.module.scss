@@ -1,0 +1,13 @@
+.rank{
+display: flex;
+align-items: center;
+& h1{
+    margin: 0;
+  
+}
+    & img{
+        height: 20px;
+        margin:0 0.5rem;
+        
+    }
+}

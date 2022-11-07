@@ -85,11 +85,8 @@
   &__create{
     display: flex;
     position: relative;
-    width: max-content;
+    font-size: 15px;
     
-    
-   
-
   }
   &__navicons{
     display: flex;
@@ -99,7 +96,7 @@
     &__icon{
       display: flex;
       align-items: center;
-      font-size: 10px;
+      font-size: 15px;
       margin-right: 1rem;
       
       & img{

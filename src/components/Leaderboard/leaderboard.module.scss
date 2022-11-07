@@ -1,6 +1,8 @@
 .leaderboard{
     display: flex;
     flex-direction: column;
+    position: fixed;
+    width: 25rem;
     &__title{
         background-color: black;
         height: 4rem;
@@ -9,7 +11,9 @@
         text-align: center;
         align-items: center;
         padding: 0 1rem;
-        border-radius: 10px;
+        font-size: 15px;
+       
+        // border-radius: 10px;
 
         & img{
             margin-right: 2rem;
@@ -18,10 +22,14 @@
         }
         & h1 {
             color: white;
-            font-size: 24px;
+            
             margin: 0;
             height: max-content;
         }
     }
 
+}
+
+.arrow{
+    height: 20px;
 }

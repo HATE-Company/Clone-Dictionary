@@ -48,8 +48,8 @@ const Header = () => {
       <div className={styles.topHeader}>
         <div className={styles.topLeft}>
           <Link href="/">
-            <Typography.Title level={2}>
-              Hate Co.
+            <Typography.Title style={{fontSize:'18px'}} level={2}>
+              Hate Club
             </Typography.Title>
           </Link>
         </div>

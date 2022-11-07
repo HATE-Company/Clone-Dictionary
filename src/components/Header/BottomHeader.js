@@ -35,9 +35,9 @@ const BottomHeader = () => {
         <div className={styles.bottomHeader__create}>
           
          {/*This one's will be NavLink*/}
-        <h1 style={{color:'purple'}}>create hashtag # &nbsp;</h1>
+        <h1 style={{color:'#1DA57A', marginRight:'4rem'}}># create hashtag &nbsp;</h1>
      
-        <h1>create tagline +</h1>
+        <h1>+ create headline</h1>
 
         </div>
       </div>

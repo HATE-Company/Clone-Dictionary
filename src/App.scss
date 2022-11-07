@@ -1,0 +1,51 @@
+
+
+
+.ant-layout-header{
+  padding:0 5rem!important;
+}
+.top-header{
+background-color: black;
+position: fixed;
+width: 100%;
+z-index: 1231;
+}
+.bottom-header{
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 64px;
+  z-index: 1231;
+}
+.right-sidebar{
+  position: relative;
+  height: max-content;
+  background-color: transparent;
+  margin-top: 2rem;
+  
+}
+.content{
+  width: 80%!important;
+  padding-left: 390px;
+}
+.body{
+  height: max-content;
+  position: relative;
+  top: 128px;
+
+}
+*{
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 8rem;
+    position: relative;
+    top: 128px;
+    margin-left: 440px;
+}
+

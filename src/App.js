@@ -1,7 +1,7 @@
 import { Routes, Route, Outlet } from "react-router-dom";
 import { Layout } from 'antd';
 
-import './App.css';
+import './App.scss';
 import { TopHeader, BottomHeader } from "./components/Header";
 
 import Home from './pages/Home';
@@ -12,19 +12,28 @@ const { Header, Content, Sider, Footer } = Layout;
 
 const AppLayout = () => {
   return (
-    <Layout>
+    <Layout style={{display:'flex',flexDirection:'column'}}>
       <Header className="top-header">
         <TopHeader />
       </Header>
       <Header className="bottom-header">
         <BottomHeader />
       </Header>
-      <Layout style={{padding:'0 5rem'}}>
-        <Sider width={380} className='left-sidebar'><Sidebar/></Sider>
+      <Layout className="body" style={{padding:'0 5rem'}}>
+        <Sider  style={{
+        overflow: 'auto',
+        height: '100vh',
+        position: 'fixed',
+        left: 0,
+        top: '128px',
+        left:'5rem',
+        bottom: 0,
+        zIndex:123
+      }} width={390} ><Sidebar/></Sider>
         <Content className="content"><Outlet />t</Content>
-        <Sider width={380} className="right-sidebar"><Leaderboard /></Sider>
+        <Sider width={390} className="right-sidebar"><Leaderboard /></Sider>
       </Layout>
-      <Footer>footer</Footer>
+      <Footer className="footer">footer</Footer>
     </Layout>
   )
 }
