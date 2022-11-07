@@ -7,6 +7,7 @@ import { TopHeader, BottomHeader } from "./components/Header";
 import Home from './pages/Home';
 import Sidebar from "./components/Sidebar/Sidebar";
 import Leaderboard from "./components/Leaderboard/Leaderboard";
+import Footerr from "./components/Footer/Footer";
 
 const { Header, Content, Sider, Footer } = Layout;
 
@@ -30,10 +31,10 @@ const AppLayout = () => {
         bottom: 0,
         zIndex:123
       }} width={390} ><Sidebar/></Sider>
-        <Content className="content"><Outlet />t</Content>
+        <Content className="content"><Outlet /></Content>
         <Sider width={390} className="right-sidebar"><Leaderboard /></Sider>
       </Layout>
-      <Footer className="footer">footer</Footer>
+      <Footer className="footer"><Footerr /></Footer>
     </Layout>
   )
 }

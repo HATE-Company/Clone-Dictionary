@@ -40,12 +40,18 @@ z-index: 1231;
 }
 
 .footer{
-    background-color: black;
-    color: white;
+    background-color: #f0f2f5;
+    border-top: solid black;
+    border-width: 1px; border-color: rgba(6, 6, 10, 0.349);
     width: auto;
-    height: 8rem;
+    height: 2rem;
+    display: flex;
     position: relative;
     top: 128px;
     margin-left: 440px;
+    margin: 1rem 33rem;
 }
-
+html{
+    background-color: #f0f2f5;
+  
+}
