@@ -8,14 +8,14 @@
 background-color: black;
 position: fixed;
 width: 100%;
-z-index: 1231;
+z-index: 12;
 }
 .bottom-header{
   background-color: white;
   position: fixed;
   width: 100%;
   top: 64px;
-  z-index: 1231;
+  z-index: 12;
 }
 .right-sidebar{
   position: relative;
@@ -37,8 +37,16 @@ z-index: 1231;
 *{
   font-size: 100%;
   box-sizing: border-box;
+  
+}
+h1, h2, h3, h4, p{
+  font-size: 14px!important;
 }
 
+h5{
+  font-size: 12px!important;
+  margin: 0!important;
+}
 .footer{
     background-color: #f0f2f5;
     border-top: solid black;

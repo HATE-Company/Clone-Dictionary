@@ -64,7 +64,7 @@ const Leaderboard = () => {
     <>
       <div className={styles.leaderboard}>
         <div className={styles.leaderboard__title}>
-          <img src={require("../../assets/best-white.png")} />
+          <img src={require("../../assets/leaderboard.png")} />
           <h1>leaderboard</h1>
         </div>
         <Menu

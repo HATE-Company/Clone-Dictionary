@@ -26,20 +26,20 @@ const BottomHeader = () => {
       </div>
     </div>
     <div className={styles.bottomHeader__middle}>
-      <div className={styles.bottomHeader__search}>
+      {/* <div className={styles.bottomHeader__search}>
         <input  placeholder="headline, #tag, @writer" />
         <img src={require("../../assets/search.png")}></img>
-      </div>
+      </div> */}
     </div>
       <div className={styles.bottomHeader__right}>
-        <div className={styles.bottomHeader__create}>
+        {/* <div className={styles.bottomHeader__create}>
           
-         {/*This one's will be NavLink*/}
+         This one's will be NavLink
         <h1 style={{color:'#1DA57A', marginRight:'4rem'}}># create hashtag &nbsp;</h1>
      
         <h1>+ create headline</h1>
 
-        </div>
+        </div> */}
       </div>
     </div>
   );

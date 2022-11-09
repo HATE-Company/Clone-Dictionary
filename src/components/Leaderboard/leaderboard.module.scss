@@ -16,9 +16,12 @@
         // border-radius: 10px;
 
         & img{
-            margin-right: 2rem;
-           
+            margin-right: 1rem;
+            filter: invert(700);
             height: 30px;
+            margin-left: 0.3rem;
+            width: 25px;
+            
         }
         & h1 {
             color: white;
