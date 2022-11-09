@@ -23,7 +23,7 @@ const AppLayout = () => {
       <Layout className="body" style={{padding:'0 5rem'}}>
         <Sider  style={{
         overflow: 'auto',
-        height: '100vh',
+        height: '85vh',
         position: 'fixed',
         left: 0,
         top: '128px',

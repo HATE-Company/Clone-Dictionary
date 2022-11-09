@@ -16,34 +16,28 @@ function getItem(label, key, icon, children, type) {
   };
 }
 const items = [
-  getItem("Lorem ipsum dolor sit amet, consectetuer adipiscin", "sub1", <></>, [
+  getItem("verlith", "sub1", <></>, [
     getItem("Lorem ipsum dolor sit amet", "1"),
     getItem("Lorem ipsum dolor sit amet", "2"),
     getItem("Lorem ipsum", "3"),
     getItem("Lorem ipsum dolor sit amet", "4"),
   ]),
-  getItem("Lorem ipsum dolor sit amet", "sub2", <></>, [
+  getItem("society", "sub2", <></>, [
     getItem("Lorem ipsum dolor sit amet", "5"),
     getItem("Lorem ipsum dolor sit amet", "6"),
-    getItem("Lorem ipsum", "sub3", null, [
-      getItem("Lorem ipsum dolor sit amet", "7"),
-      getItem("Lorem ipsum dolor ", "8"),
-    ]),
+    getItem("Lorem ipsum", "sub3", null),
   ]),
-  getItem("Lorem ipsum dolor sit amet", "sub3", <></>, [
+  getItem("finance", "sub3", <></>, [
     getItem("Lorem ipsum dolor sit amet", "9"),
     getItem("Lorem ipsum dolor sit amet", "10"),
-    getItem("Lorem ipsum", "sub4", null, [
-      getItem("Lorem ipsum dolor sit amet", "11"),
-      getItem("Lorem ipsum dolor ", "12"),
-    ]),
+    getItem("Lorem ipsum", "sub4", null),
   ]),
-  getItem("Lorem ipsum dolor sit amet", "sub5", <></>, [
+  getItem("politics", "sub5", <></>, [
     getItem("Lorem ipsum dolor sit amet", "13"),
     getItem("Lorem ipsum dolor sit amet", "14"),
    ,
   ]),
-  getItem("Lorem ipsum dolor sit amet", "sub7", <></>, [
+  getItem("sports", "sub7", <></>, [
     getItem("Lorem ipsum dolor sit amet", "17"),
     getItem("Lorem ipsum dolor sit amet", "18"),
    ,

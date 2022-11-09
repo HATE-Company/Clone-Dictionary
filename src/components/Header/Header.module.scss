@@ -119,11 +119,17 @@
   &__navicons{
     display: flex;
     align-items: center;
-      width: max-content;
-      
-    &__icon{
+    width: max-content;
+    justify-content: space-between;
+    width: 390px;
+    padding:0 0.8rem 0 1.5rem;
+      &__icon{
+      &:nth-child(4){
+        margin-right: 0;
+      }
       display: flex;
       align-items: center;
+      justify-content: space-between;
       font-size: 15px;
       margin-right: 1rem;
       

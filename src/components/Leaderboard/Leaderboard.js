@@ -18,30 +18,32 @@ function getItem(label, key, icon, children, type) {
 }
 const items = [
   getItem("most upvoted headlines", "sub1", <></>, [
-    getItem("most upvoted headlines", "1",<LeaderboardRank rank='1'/>),
-    getItem("most upvoted entries", "2", <LeaderboardRank rank='1'/>),
-    getItem("most upvoted in total", "3", <LeaderboardRank rank='1'/>),
-    getItem("invitation codes", "4", <LeaderboardRank rank='1'/>),
+    getItem("nickname", "1",<LeaderboardRank rank='1'/>),
+    getItem("nickname", "2", <LeaderboardRank rank='1'/>),
+    getItem("nickname", "3", <LeaderboardRank rank='1'/>),
+    getItem("nickname", "4", <LeaderboardRank rank='1'/>),
+    getItem("", "16", <div className="btn" style={{position:'absolute',left:'0',right:'0',margin:'0 auto',width:'80%',textAlign:'center',backgroundColor:'#f0f2f5',padding:'0 1rem', borderRadius:'20px'}}><p style={{margin:'0'}}>view all</p></div>),
+
   ]),
   getItem("most upvoted entries", "sub2", <></>, [
-    getItem("Lorem ipsum dolor sit amet", "5", <LeaderboardRank rank='1'/>),
-    getItem("Lorem ipsum dolor sit amet", "6",<LeaderboardRank rank='1'/>),
-    getItem("Lorem ipsum", "sub3", <LeaderboardRank rank='1'/>, [
-      getItem("Lorem ipsum dolor sit amet", "7"),
-      getItem("Lorem ipsum dolor ", "8"),
-    ]),
+    getItem("nickname", "5", <LeaderboardRank rank='1'/>),
+    getItem("nickname", "6",<LeaderboardRank rank='1'/>),
+    getItem("nickname", "sub3", <LeaderboardRank rank='1'/>),
+    getItem("","213",<div className="btn" style={{position:'absolute',left:'0',right:'0',margin:'0 auto',width:'80%',textAlign:'center',backgroundColor:'#f0f2f5',padding:'0 1rem', borderRadius:'20px'}}><p style={{margin:'0'}}>view all</p></div>),
   ]),
   getItem("most upvoted in total", "sub4", <></>, [
-    getItem("Option 9", "9", <LeaderboardRank rank='1'/>),
-    getItem("Option 10", "10", <LeaderboardRank rank='1'/>),
-    getItem("Option 11", "11", <LeaderboardRank rank='1'/>),
-    getItem("Option 12", "12", <LeaderboardRank rank='1'/>),
+    getItem("nickname", "9", <LeaderboardRank rank='1'/>),
+    getItem("nickname", "10", <LeaderboardRank rank='1'/>),
+    getItem("nickname", "11", <LeaderboardRank rank='1'/>),
+    getItem("nickname", "12", <LeaderboardRank rank='1'/>),
+    getItem("","2133",<div className="btn" style={{position:'absolute',left:'0',right:'0',margin:'0 auto',width:'80%',textAlign:'center',backgroundColor:'#f0f2f5',padding:'0 1rem', borderRadius:'20px'}}><p style={{margin:'0'}}>view all</p></div>)
   ]),
   getItem("invitation codes", "sub5", <></>, [
-    getItem("Option 9", "13", <LeaderboardRank rank='1'/>),
-    getItem("Option 10", "14", <LeaderboardRank rank='1'/>),
-    getItem("Option 11", "15", <LeaderboardRank rank='1'/>),
-    getItem("Option 12", "16", <LeaderboardRank rank='1'/>),
+    getItem("nickname", "13", <LeaderboardRank rank='1'/>),
+    getItem("nickname", "14", <LeaderboardRank rank='1'/>),
+    getItem("nickname", "15", <LeaderboardRank rank='1'/>),
+    getItem("nickname", "16", <LeaderboardRank rank='1'/>),
+    getItem("","21344",<div className="btn" style={{position:'absolute',left:'0',right:'0',margin:'0 auto',width:'80%',textAlign:'center',backgroundColor:'#f0f2f5',padding:'0 1rem', borderRadius:'20px'}}><p style={{margin:'0'}}>view all</p></div>)
   ]),
 ];
 console.log(items[0].label);

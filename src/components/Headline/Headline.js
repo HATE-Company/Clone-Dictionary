@@ -24,6 +24,7 @@ const Headline = (props) => {
                 <div className={styles.headline__body__right}>
                     <div className={styles.headline__body__right__create}>
                         <img src={require("../../assets/create entry icon.png")}/>
+                        <div className={styles.tooltip}>add entry</div>
                     </div>
                 </div>
             </div>

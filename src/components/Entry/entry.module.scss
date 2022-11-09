@@ -10,36 +10,49 @@
         display: flex;
         width: 100%;
         height: 4rem;
-        border-top: 1px solid black;
+        
         align-items: center;
         padding-top: 0.5rem;
         margin-top: 1rem;
+        height: max-content;
            
         & form{
             width: 100%;
             height:100%;
             display: flex;
+            flex-direction: column;
             align-items: center;
-            & input[type=text]{
+            & textarea{
                 outline: none;
-                background-color: rgba(128, 128, 128, 0.185);
-                border-radius: 15px;
+                
+                
                 width: 100%;
-                border: 1px solid grey;
-                height: 80%;
+                outline: none;
+                border: none;
+                border: 1px solid rgba(128, 128, 128, 0.185);
                 padding: 1rem;
+                min-height: 13rem;
+                overflow: hidden;
+               
             }
             & input[type=submit]{
                 appearance: none;
                 border: none;
                 height: 100%;
-                width: 4rem;
-                background-color: transparent;
+                width: max-content;
+                cursor: pointer;
                 outline: none;
-                background-image: url("../../assets/send.png");
-                background-position: center;
-                background-size: 50%;
-                background-repeat: no-repeat;
+            
+                background-color: #f0f2f5;
+                text-align: center;
+                padding: 0 1rem;
+
+                &:hover{
+                    border: 1px solid #1DA57A ;
+
+                   
+                }
+                
             }
         }
     }
@@ -67,7 +80,10 @@
 
                 & h5{
                     margin-right: 1rem!important;
-                    font-size: 15px;
+                    font-size: 14px!important;
+                    &:hover{
+                        color:#1DA57A;
+                    }
                    
                    
                 }
@@ -92,6 +108,9 @@
                         height: 20px;
                         margin-bottom: 0.0rem;
                         cursor: pointer;
+                        &:hover{
+                            filter: invert(45%) sepia(97%) saturate(345%) hue-rotate(110deg) brightness(96%) contrast(92%);
+                        }
                     }
                 }
             }
@@ -104,6 +123,9 @@
                 & h1 {
                     margin: 0;
                 }
+                & h5{
+                    color: grey;
+                }
 
                 &__author{
                     display: flex;
@@ -113,7 +135,7 @@
                         flex-direction: column;
                         align-items: center;
                         justify-content: center;
-                        margin:0 1rem;
+                        margin:0 0.5rem;
                     }
                     &__picture{
                         width: 45px;

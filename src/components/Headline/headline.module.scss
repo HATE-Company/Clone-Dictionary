@@ -35,6 +35,9 @@
                 & img{
                     height: 20px;
                     cursor: pointer;
+                    &:hover{
+                        filter: invert(45%) sepia(97%) saturate(345%) hue-rotate(110deg) brightness(96%) contrast(92%);
+                    }
                 }
             }
         }
@@ -42,8 +45,33 @@
             display: flex;
             width: 100%;
             justify-content: flex-end;
+            position: relative;
+            & .tooltip{
+                width: max-content;
+                position: absolute;
+               
+                background-color: white;
+                border: 1px solid black;
+                padding:0.2rem 1rem;
+                bottom: -1rem;
+                right: -5rem;
+                opacity: 0;
+            }
             & img{
                 height: 50px;
+                width: 45px;
+                filter: drop-shadow(0 0 0px black);
+            
+                  
+                    &:hover{
+                        
+                        & + .tooltip{
+                            opacity: 1!important;
+                        }
+                    }
+                
+               
+               
             }
         }
     }

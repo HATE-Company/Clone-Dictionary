@@ -15,7 +15,7 @@ import styles from './Header.module.scss';
 const menu = (
   <>
   <div className={styles.profileName}>
-  <h1>signed as nickname</h1>
+  <h1>signed as merto</h1>
   </div>
   <Menu style={{width:'10rem',position:'relative', left:'0rem'}}
     items={[
