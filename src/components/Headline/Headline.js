@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import styles from "./headline.module.scss"
 
 
@@ -22,10 +23,10 @@ const Headline = (props) => {
                 </div>
                 </div>
                 <div className={styles.headline__body__right}>
-                    <div className={styles.headline__body__right__create}>
+                    <NavLink to='/newentry' className={styles.headline__body__right__create}>
                         <img src={require("../../assets/create entry icon.png")}/>
                         <div className={styles.tooltip}>add entry</div>
-                    </div>
+                    </NavLink>
                 </div>
             </div>
         </div>

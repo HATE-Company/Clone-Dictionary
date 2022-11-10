@@ -4,6 +4,10 @@
   align-items: center;
   height: 64px;
   background-color: black;
+  & .ant-dropdown{
+
+z-index: 1231231!important;
+  }
   .topMid{
     display: flex;
     align-items: center;

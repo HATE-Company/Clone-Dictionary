@@ -8,14 +8,18 @@
 background-color: black;
 position: fixed;
 width: 100%;
-z-index: 1223;
+z-index: 1224;
 }
+.ant-dropdown{
+
+  z-index: 1231231!important;
+    }
 .bottom-header{
   background-color: white;
   position: fixed;
   width: 100%;
   top: 64px;
-  z-index: 1223;
+  z-index: 1234;
 }
 
 .right-sidebar{
@@ -32,6 +36,7 @@ z-index: 1223;
 
 .body{
   height: max-content;
+  min-height: 79vh;
   position: relative;
   top: 128px;
 
@@ -71,4 +76,7 @@ h5{
 html{
     background-color: #f0f2f5;
   
+}
+body{
+  background-color: #f0f2f5;
 }

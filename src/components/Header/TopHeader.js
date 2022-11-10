@@ -74,7 +74,7 @@ const createMenu = (
 );
 
 const UserDropdown = () => (
-  <Dropdown overlay={menu}>
+  <Dropdown  overlay={menu}>
     <a onClick={e => e.preventDefault()} className={styles.dropdownButton}>
       <div className={styles.pp}>
       <img src={require("../../assets/pp.jpg")}/>
@@ -127,9 +127,9 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <div style={{position:'relative',zIndex:'2322'}}>
+              <div style={{position:'relative',zIndex:'232432'}}>
 
-              <UserDropdown />
+              <UserDropdown/>
               </div>
             </li>
           </ul>
