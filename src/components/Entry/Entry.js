@@ -100,8 +100,8 @@ const Entry = (props) => {
         <div className={styles.entry__reply}>
           <form onSubmit={formHandler}>
             <textarea onChange={replyHandler} id='my-text' placeholder="what are your thoughts?" type="text"/>
-            <div style={{width:'100%',height:'2rem', display:'flex', margin:'1rem 0', justifyContent:'space-between', alignItems:'center'}}>
-              <Select style={{width:'100px'}} onChange={selectHandler} value={selected} options={provinceData?.map((lang) => ({
+            <div style={{width:'100%',height:'2rem', display:'flex', margin:'1rem 0 0 0', justifyContent:'space-between', alignItems:'center'}}>
+              <Select style={{width:'100px', position:'relative', zIndex:'1'}} onChange={selectHandler} value={selected} options={provinceData?.map((lang) => ({
                 value:lang,
                 label:lang
               }))}>

@@ -8,15 +8,16 @@
 background-color: black;
 position: fixed;
 width: 100%;
-z-index: 12;
+z-index: 1223;
 }
 .bottom-header{
   background-color: white;
   position: fixed;
   width: 100%;
   top: 64px;
-  z-index: 12;
+  z-index: 1223;
 }
+
 .right-sidebar{
   position: relative;
   height: max-content;
@@ -28,6 +29,7 @@ z-index: 12;
   width: 80%!important;
   padding-left: 390px;
 }
+
 .body{
   height: max-content;
   position: relative;

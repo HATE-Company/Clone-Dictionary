@@ -138,7 +138,7 @@ const Sidebar = () => {
   };
 
   // Since i could not find a way to design spesific menu items on antd, i decided to make it with key names for now. Will change it later
-  let adTag = items.filter((item) => item.key == "sub1");
+  let adTag = items.filter((item) => item.key === "sub1");
   let adTag2 = items.filter((item) => item.key == "sub17");
   let normalTags = items.filter((item) => item.key !== "sub1");
 //radial-gradient(circle, rgba(80,80,80,1) 0%, rgba(0,0,0,1) 75%)
@@ -149,12 +149,12 @@ const Sidebar = () => {
         mode="inline"
         openKeys={openKeys}
         onOpenChange={onOpenChange}
-        className="adTag"
         style={{
           background: "#1DA57A",
           background: 'radial-gradient(circle, rgba(80,80,80,1) 0%, rgba(0,0,0,1) 75%)',
           color: "white",
         }}
+        className='adTagg'
         theme="light"
         items={adTag}
       />

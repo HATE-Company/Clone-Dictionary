@@ -101,7 +101,7 @@ const Header = () => {
     <div>
       <div className={styles.topHeader}>
         <div className={styles.topLeft}>
-          <Link href="/">
+          <Link to="/">
             <Typography.Title style={{fontSize:'18px',display:'flex',alignItems:'center'}} level={2}>
               <img style={{height:'45px'}} src={logo}/>
               Hate Club

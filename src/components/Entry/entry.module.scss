@@ -9,7 +9,7 @@
     &__reply{
         display: flex;
         width: 100%;
-        height: 4rem;
+      
         
         align-items: center;
         padding-top: 0.5rem;
@@ -24,8 +24,6 @@
             align-items: center;
             & textarea{
                 outline: none;
-                
-                
                 width: 100%;
                 outline: none;
                 border: none;
@@ -49,8 +47,6 @@
 
                 &:hover{
                     border: 1px solid #1DA57A ;
-
-                   
                 }
                 
             }
