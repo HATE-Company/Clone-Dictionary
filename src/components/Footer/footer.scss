@@ -6,7 +6,13 @@ footer{
     height: 100%;
     background-color: #f0f2f5;
     padding: 1.5rem 0 !important;
-  
+    & a {
+        color: black!important;
+       
+        &:hover{
+            color: #1DA57A!important;
+        }
+    }
     & h1{
         margin: 0;
     }

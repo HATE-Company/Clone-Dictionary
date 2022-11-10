@@ -23,31 +23,31 @@ const items = [
     getItem("nickname", "2", <LeaderboardRank rank='1'/>),
     getItem("nickname", "3", <LeaderboardRank rank='1'/>),
     getItem("nickname", "4", <LeaderboardRank rank='1'/>),
-    getItem("", "16", <NavLink to='leaderboard' className="btn" style={{position:'absolute',left:'0',right:'0',margin:'0 auto',width:'80%',textAlign:'center',backgroundColor:'#f0f2f5',padding:'0 1rem', borderRadius:'20px'}}><p style={{margin:'0'}}>view all</p></NavLink>),
+    getItem("", "16", <NavLink to='leaderboard' className="btn" style={{position:'absolute',left:'0',right:'0',margin:'0 auto',width:'100%',backgroundColor:'#f0f2f5',padding:'0 3rem'}}><p style={{margin:'0'}}>view all</p></NavLink>),
 
   ]),
   getItem("most upvoted entries", "sub2", <></>, [
     getItem("nickname", "5", <LeaderboardRank rank='1'/>),
     getItem("nickname", "6",<LeaderboardRank rank='1'/>),
     getItem("nickname", "sub3", <LeaderboardRank rank='1'/>),
-    getItem("","213",<NavLink to='leaderboard' className="btn" style={{position:'absolute',left:'0',right:'0',margin:'0 auto',width:'80%',textAlign:'center',backgroundColor:'#f0f2f5',padding:'0 1rem', borderRadius:'20px'}}><p style={{margin:'0'}}>view all</p></NavLink>),
+    getItem("","213",<NavLink to='leaderboard' className="btn" style={{position:'absolute',left:'0',right:'0',margin:'0 auto',width:'100%',backgroundColor:'#f0f2f5',padding:'0 3rem'}}><p style={{margin:'0'}}>view all</p></NavLink>),
   ]),
   getItem("most upvoted in total", "sub4", <></>, [
     getItem("nickname", "9", <LeaderboardRank rank='1'/>),
     getItem("nickname", "10", <LeaderboardRank rank='1'/>),
     getItem("nickname", "11", <LeaderboardRank rank='1'/>),
     getItem("nickname", "12", <LeaderboardRank rank='1'/>),
-    getItem("","2133",<NavLink to='leaderboard' className="btn" style={{position:'absolute',left:'0',right:'0',margin:'0 auto',width:'80%',textAlign:'center',backgroundColor:'#f0f2f5',padding:'0 1rem', borderRadius:'20px'}}><p style={{margin:'0'}}>view all</p></NavLink>)
+    getItem("","2133",<NavLink to='leaderboard' className="btn" style={{position:'absolute',left:'0',right:'0',margin:'0 auto',width:'100%',backgroundColor:'#f0f2f5',padding:'0 3rem'}}><p style={{margin:'0'}}>view all</p></NavLink>)
   ]),
   getItem("invitation codes", "sub5", <></>, [
     getItem("nickname", "13", <LeaderboardRank rank='1'/>),
     getItem("nickname", "14", <LeaderboardRank rank='1'/>),
     getItem("nickname", "15", <LeaderboardRank rank='1'/>),
     getItem("nickname", "16", <LeaderboardRank rank='1'/>),
-    getItem("","21344",<NavLink to='leaderboard' className="btn" style={{position:'absolute',left:'0',right:'0',margin:'0 auto',width:'80%',textAlign:'center',backgroundColor:'#f0f2f5',padding:'0 1rem', borderRadius:'20px'}}><p style={{margin:'0'}}>view all</p></NavLink>)
+    getItem("","21344",<NavLink to='leaderboard' className="btn" style={{position:'absolute',left:'0',right:'0',margin:'0 auto',width:'100%',backgroundColor:'#f0f2f5',padding:'0 3rem'}}><p style={{margin:'0'}}>view all</p></NavLink>)
   ]),
 ];
-console.log(items[0].label);
+
 // submenu keys of first level
 const rootSubmenuKeys = ["sub1", "sub2", "sub4"];
 const Leaderboard = () => {

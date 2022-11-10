@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import {
   Typography,
   Dropdown, Menu, Space
@@ -65,7 +65,7 @@ const createMenu = (
         key: '1',
       },
       {
-        label: 'create headline',
+        label: (<NavLink to='/newheadline'>create headline</NavLink>),
         key: '2',
       },
       

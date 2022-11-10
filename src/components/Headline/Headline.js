@@ -25,7 +25,7 @@ const Headline = (props) => {
                 <div className={styles.headline__body__right}>
                     <NavLink to='/newentry' className={styles.headline__body__right__create}>
                         <img src={require("../../assets/create entry icon.png")}/>
-                        <div className={styles.tooltip}>add entry</div>
+                        <div style={{color:'black'}} className={styles.tooltip}>add entry</div>
                     </NavLink>
                 </div>
             </div>

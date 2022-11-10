@@ -10,6 +10,7 @@ import Leaderboard from "./components/Leaderboard/Leaderboard";
 import Footerr from "./components/Footer/Footer";
 import LeaderboardPage from "./pages/Leaderboard/Leaderboard";
 import CreateEntry from "./pages/CreateEntry/CreateEntry";
+import CreateHeadline from "./pages/CreateHeadline/CreateHeadline";
 
 const { Header, Content, Sider, Footer } = Layout;
 
@@ -60,6 +61,7 @@ function App() {
         <Route path="/" element={<AppLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/newentry" element={<CreateEntry />} />
+          <Route path="/newheadline" element={<CreateHeadline />} />
           {/* <Route path="about" element={<About />} /> */}
           {/* <Route path="dashboard" element={<Dashboard />} /> */}
 
